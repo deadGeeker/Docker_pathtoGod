@@ -11,11 +11,11 @@
 ---
 + 镜像的代号由镜像名(name):版本(tag_name)组成，为了方便我这里省略掉后面的(tag_name)，即默认下载最新版本：
 + + 1. $ docker pull nginx
-+ + ![avatar](/png/6.png)
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/6.PNG)
 + + 2. $ docker pull tomcat:9.0  
-+ + ![avatar](/png/7.png)  
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/7.PNG)  
 + + 3. $ docker images  
-+ + ![avatar](/png/9.png)
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/9.PNG)
 ---
 2. 运行镜像，生成实例  
 ---  
@@ -23,14 +23,14 @@
 + + \# -d    后台运行
 + + \# -p 宿主机端口:容器端口，建立映射关系，nginx默认端口是80
 + + 1. $ docker run --name nginx01 -d -p 8080:80 nginx  
-+ + ![avatar](/png/10.png)
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/10.PNG)
 + + \# 从宿主机访问容器 在宿主机浏览器输入 localhost:8080  
-+ + ![avatar](/png/11.png)  
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/11.PNG)  
 + + \# 停止容器nginx01的服务
 + + 2. $ docker container stop nginx01
-+ + ![avatar](/png/12.png)  
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/12.PNG)  
 + + \# 再次访问访问容器 在宿主机浏览器输入 localhost:8080
-+ + ![avatar](/png/13.png) 
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/13.PNG) 
 + + \# 删除容器nginx01
 + + 2. $ docker container rm nginx01
 ---
