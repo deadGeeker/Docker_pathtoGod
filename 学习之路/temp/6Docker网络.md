@@ -11,7 +11,7 @@
 ### 预科知识
 ---
 1. 键入命令 $ ip addr 
-+ + ![avatar](/png/20.png)
++ + ![avatar](https://github.com/deadGeeker/Docker_pathtoGod/blob/main/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/temp/png/20.PNG)
 + + 这条命令是查看宿主机的网关，从上图的信息可以知道，本地有三个网关：
 + + lo：这个是本地回环地址【127.0.0.1】对应的网关
 + + ens33：这个是宿主机内网地址【192.168.73.133】对应的网关
